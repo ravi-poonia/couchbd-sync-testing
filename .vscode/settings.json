@@ -1,0 +1,41 @@
+{
+  "files.associations": {
+    ".babelrc": "jsonc",
+    ".eslintrc": "jsonc",
+    ".prettierrc": "jsonc",
+    ".stylelintrc": "json",
+    ".dockerignore": "ignore",
+    ".eslintignore": "ignore",
+    ".flowconfig": "ignore"
+  },
+  "search.exclude": {
+    ".git": true,
+    ".history": true,
+    "node_modules": true,
+    "yarn.lock": true
+  },
+  "cSpell.words": [
+    "KAMANI",
+    "eiphop",
+    "leveldb",
+    "leveldown",
+    "notistack",
+    "rxdb",
+    "transportdb"
+  ],
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "typescript.validate.enable": false,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+  },
+}
